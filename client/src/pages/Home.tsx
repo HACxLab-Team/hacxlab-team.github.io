@@ -82,7 +82,7 @@ function Mark() {
   return (
     <img
       className="brand-mark"
-      src="/images/hacxlab-logo_91e4f056.png"
+      src="/images/hacxlab-logo_91e4f056.webp"
       alt="HACxLab mark"
     />
   );
@@ -203,7 +203,7 @@ export default function Home() {
         </section>
 
         <section id="learning" className="learning-section">
-          <div className="learning-image"><img src="/images/hacxlab-workshop_4cc83a6d.jpg" alt="Students collaborating during a humanities-centered AI workshop" /></div>
+          <div className="learning-image"><img src="/images/hacxlab-workshop_4cc83a6d.webp" alt="Students collaborating during a humanities-centered AI workshop" /></div>
           <div className="learning-content">
             <Label number="04">Student learning</Label>
             <h2>Develop your distinct strengths for the AI era.</h2>
