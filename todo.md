@@ -1,0 +1,66 @@
+# HACxLab Revision Checklist
+
+- [x] Remove the hero image statement callout.
+- [x] Remove the “Margin Note / H-01” evidence card.
+- [x] Verify the revised desktop and mobile layouts.
+- [x] Remove decorative arrows from research-direction cards.
+- [x] Remove decorative arrows from lab activity rows.
+- [x] Verify the updated desktop and mobile layouts.
+- [x] Remove the Competency Record / L-04 annotation block.
+- [x] Remove the Collaboration Map / V-05 annotation block.
+- [x] Verify the revised learning and team sections.
+- [x] Remove the Dialogue Trace / X-06 strip.
+- [x] Verify the revised international collaboration section.
+- [x] Remove the vertical HAC× hero mark.
+- [x] Verify the revised hero on desktop and mobile.
+- [x] Remove the repeated Languages icons from international-activity tags.
+- [x] Refresh the editable SVG and JPG design-review exports.
+- [x] Verify the website and refreshed design files.
+- [x] Remove the HACxLab / 2026 hero ruler.
+- [x] Remove the hero research labels and dossier mark.
+- [x] Verify the simplified hero on desktop and mobile.
+- [x] Change the join call-to-action label to Request For More Info.
+- [x] Update the information-request email link to myhacxlab@gmail.com.
+- [x] Verify the revised call-to-action on desktop and mobile.
+- [x] Add Contact: myhacxlab@gmail.com to the footer.
+- [x] Verify the revised footer on desktop and mobile.
+- [x] Replace the NIU reference with Taiwan’s National Ilan University (NIU).
+- [x] Verify the revised international collaboration copy.
+- [x] Remove the Training Objective / M-02 strip.
+- [x] Remove the AI, language & culture English corner activity tag.
+- [x] Remove the join-interest tags.
+- [x] Verify the revised mission, collaboration, and join sections.
+- [x] Restore the divider between research cards two and three.
+- [x] Verify consistent research-card boundaries on desktop and mobile.
+- [x] Remove competency items 4, 9, and 10.
+- [x] Renumber the remaining competency items from 1 to 8.
+- [x] Verify the streamlined competency list on desktop and mobile.
+- [x] Change VIP Team Structure to Lab Team Members.
+- [x] Verify the revised team section label.
+- [x] Update the Academic Faculty, Industry Mentors, Graduate Students, and International Students diagram labels.
+- [x] Merge Senior and Junior Students into one Undergrad Students diagram node.
+- [x] Verify the revised team diagram on desktop and mobile.
+- [x] Rebuild the team diagram as a fully connected linear sequence.
+- [x] Keep all team circles fully within the diagram bounds.
+- [x] Match the Graduate Students circle color to the Undergrad Students circle.
+- [x] Verify the rebuilt team diagram on desktop and mobile.
+- [x] Remove the team-role table beneath the Lab Team Members diagram.
+- [x] Verify the simplified team section on desktop and mobile.
+- [x] Consolidate the first two lab activities into one meetings entry.
+- [x] Rename the industry mentor, cross-cultural co-learning, and research poster entries.
+- [x] Remove the research documentation activity and renumber to four entries.
+- [x] Verify the four-item activities list on desktop and mobile.
+- [x] Replace the activities-section description with the user-provided sentence.
+- [x] Verify the revised activities-section copy.
+- [x] Change the information-request button label to 9/3/2026 Info Session- Request For More Info.
+- [x] Verify the revised call-to-action on desktop and mobile.
+- [x] Remove the Academic/Business style toggle controls.
+- [x] Retain only the Academic visual treatment and remove style-switching logic.
+- [x] Verify the academic-only website on desktop and mobile.
+- [x] Replace the hero statement with the user-provided interdisciplinary AI-lab description.
+- [x] Verify the revised hero copy on desktop and mobile.
+- [x] Remove the hero introductory sentence.
+- [x] Remove the See Research Directions hero link.
+- [x] Verify the simplified hero on desktop and mobile.
+- [x] Remove the Read the Participation Brief link.
+- [x] Verify the simplified activities section on desktop and mobile.

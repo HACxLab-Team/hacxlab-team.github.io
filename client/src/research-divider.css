@@ -1,0 +1,2 @@
+/** HACxLab research-card divider guard: preserves the visual boundary between card two and card three. */
+.research-card{position:relative}.research-grid>.research-card:nth-child(2)::after{content:"";position:absolute;z-index:2;top:0;right:-1px;bottom:0;width:1px;background:var(--line);pointer-events:none}
