@@ -80,11 +80,10 @@ function Label({ children, number }: { children: string; number?: string }) {
 
 function Mark() {
   return (
-    <img
-      className="brand-mark"
-      src="/images/hacxlab-logo_91e4f056.webp"
-      alt="HACxLab mark"
-    />
+    <svg className="brand-mark" viewBox="0 0 38 38" role="img" aria-label="HACxLab mark">
+      <rect width="38" height="38" fill="currentColor" />
+      <path d="M9 9v20M9 19h9M18 9v20M24 14l9 10M33 14l-9 10" fill="none" stroke="var(--paper-bright)" strokeWidth="2.4" />
+    </svg>
   );
 }
 
@@ -203,7 +202,7 @@ export default function Home() {
         </section>
 
         <section id="learning" className="learning-section">
-          <div className="learning-image"><img src="/images/hacxlab-workshop_4cc83a6d.webp" alt="Students collaborating during a humanities-centered AI workshop" /></div>
+          <div className="learning-image"><img src="/assets/hacxlab-workshop.svg" alt="Students collaborating during a humanities-centered AI workshop" /></div>
           <div className="learning-content">
             <Label number="04">Student learning</Label>
             <h2>Develop your distinct strengths for the AI era.</h2>

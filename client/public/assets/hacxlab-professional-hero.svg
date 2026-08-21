@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071828"/>
+      <stop offset="1" stop-color="#164b70"/>
+    </linearGradient>
+    <pattern id="scan" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M0 47.5H48M47.5 0V48" stroke="#a9d6e8" stroke-opacity=".14"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#blue)"/>
+  <rect width="1200" height="900" fill="url(#scan)"/>
+  <circle cx="850" cy="405" r="270" fill="none" stroke="#70a8f4" stroke-width="2" stroke-opacity=".7"/>
+  <circle cx="850" cy="405" r="190" fill="none" stroke="#aee9db" stroke-width="2" stroke-dasharray="10 13" stroke-opacity=".72"/>
+  <path d="M135 700L405 470L585 580L1000 180" fill="none" stroke="#70a8f4" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".42"/>
+  <path d="M120 155h350M120 187h250M120 219h310" stroke="#f7fbff" stroke-width="7" stroke-linecap="square" stroke-opacity=".55"/>
+</svg>

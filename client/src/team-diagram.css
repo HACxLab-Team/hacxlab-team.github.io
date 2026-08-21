@@ -1,3 +1,173 @@
-/** HACxLab linear team diagram: a connected five-node chain with fully visible circles and matched graduate-undergraduate treatment. */
-.team-graph{height:220px;margin:40px 0 30px;overflow:visible}.team-graph .node{top:55px;width:108px;height:108px;padding:10px;font-size:9px;line-height:1.25}.team-graph .node-one{left:2%;background:var(--green);color:var(--paper-bright)}.team-graph .node-two{left:22%;background:var(--paper-bright);color:var(--green)}.team-graph .node-three,.team-graph .node-four{top:55px;background:var(--paper-bright);border-color:var(--green);color:var(--green)}.team-graph .node-three{left:42%;width:108px}.team-graph .node-four{left:62%;width:108px}.team-graph .node-six{left:82%;right:auto;top:55px;width:108px;background:#d3dba2;color:var(--green)}.team-graph .graph-line{top:109px;height:1px;background:color-mix(in srgb,var(--green) 58%,transparent);transform:none}.team-graph .l1{left:calc(2% + 108px);width:calc(20% - 108px)}.team-graph .l2{left:calc(22% + 108px);top:109px;width:calc(20% - 108px);transform:none}.team-graph .l3{left:calc(42% + 108px);top:109px;width:calc(20% - 108px);transform:none}.team-graph .l4{left:calc(62% + 108px);top:109px;width:calc(20% - 108px);transform:none}
-@media (max-width:760px){.team-graph{height:160px;margin:30px 0 24px;transform:none!important;transform-origin:initial!important;width:100%!important;overflow:visible}.team-graph .node{top:44px;width:56px;height:56px;padding:4px;font-size:6px;line-height:1.18;letter-spacing:.035em}.team-graph .node-one{left:1%;width:56px}.team-graph .node-two{left:23%;width:56px}.team-graph .node-three{left:45%;top:44px;width:56px}.team-graph .node-four{left:67%;top:44px;width:56px}.team-graph .node-six{left:83%;top:44px;width:56px}.team-graph .graph-line{top:72px}.team-graph .l1{left:calc(1% + 56px);width:calc(22% - 56px)}.team-graph .l2{left:calc(23% + 56px);top:72px;width:calc(22% - 56px)}.team-graph .l3{left:calc(45% + 56px);top:72px;width:calc(22% - 56px)}.team-graph .l4{left:calc(67% + 56px);top:72px;width:calc(16% - 56px)}}
+/**
+ * HACxLab / Research Atelier team diagram: a linear desktop chain that becomes
+ * an unclipped, connected vertical timeline on small screens.
+ */
+
+.site-shell .team-graph {
+  height: 220px;
+  margin: 40px 0 30px;
+  overflow: visible;
+}
+
+.site-shell .team-graph .node {
+  top: 55px;
+  width: 108px;
+  height: 108px;
+  padding: 10px;
+  font-size: 9px;
+  line-height: 1.25;
+}
+
+.site-shell .team-graph .node-one {
+  left: 2%;
+  background: var(--green);
+  color: var(--paper-bright);
+}
+
+.site-shell .team-graph .node-two {
+  left: 22%;
+  background: var(--paper-bright);
+  color: var(--green);
+}
+
+.site-shell .team-graph .node-three,
+.site-shell .team-graph .node-four {
+  top: 55px;
+  background: var(--paper-bright);
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.site-shell .team-graph .node-three {
+  left: 42%;
+  width: 108px;
+}
+
+.site-shell .team-graph .node-four {
+  left: 62%;
+  width: 108px;
+}
+
+.site-shell .team-graph .node-six {
+  left: 82%;
+  right: auto;
+  top: 55px;
+  width: 108px;
+  background: #d3dba2;
+  color: var(--green);
+}
+
+.site-shell .team-graph .graph-line {
+  top: 109px;
+  height: 1px;
+  background: color-mix(in srgb, var(--green) 58%, transparent);
+  transform: none;
+}
+
+.site-shell .team-graph .l1 {
+  left: calc(2% + 108px);
+  width: calc(20% - 108px);
+}
+
+.site-shell .team-graph .l2 {
+  left: calc(22% + 108px);
+  top: 109px;
+  width: calc(20% - 108px);
+}
+
+.site-shell .team-graph .l3 {
+  left: calc(42% + 108px);
+  top: 109px;
+  width: calc(20% - 108px);
+}
+
+.site-shell .team-graph .l4 {
+  left: calc(62% + 108px);
+  top: 109px;
+  width: calc(20% - 108px);
+}
+
+@media (max-width: 760px) {
+  .site-shell .team-graph {
+    --diagram-node-size: clamp(84px, 24vw, 96px);
+    height: 522px;
+    margin: 36px 0 8px;
+    overflow: visible;
+    transform: none !important;
+    transform-origin: initial !important;
+    width: 100% !important;
+  }
+
+  .site-shell .team-graph::before {
+    position: absolute;
+    top: calc(var(--diagram-node-size) / 2);
+    bottom: calc(var(--diagram-node-size) / 2 + 10px);
+    left: 50%;
+    width: 1px;
+    background: color-mix(in srgb, var(--green) 58%, transparent);
+    content: "";
+    z-index: 0;
+  }
+
+  .site-shell .team-graph .node {
+    width: var(--diagram-node-size);
+    height: var(--diagram-node-size);
+    padding: 7px;
+    font-size: clamp(7px, 2vw, 8px);
+    line-height: 1.16;
+    letter-spacing: 0.025em;
+  }
+
+  .site-shell .team-graph .node-one,
+  .site-shell .team-graph .node-three,
+  .site-shell .team-graph .node-six {
+    left: 0;
+    right: auto;
+  }
+
+  .site-shell .team-graph .node-two,
+  .site-shell .team-graph .node-four {
+    left: auto;
+    right: 0;
+  }
+
+  .site-shell .team-graph .node-one { top: 0; }
+  .site-shell .team-graph .node-two { top: 104px; }
+  .site-shell .team-graph .node-three { top: 208px; }
+  .site-shell .team-graph .node-four { top: 312px; }
+  .site-shell .team-graph .node-six { top: 416px; }
+
+  .site-shell .team-graph .graph-line {
+    z-index: 1;
+    height: 1px;
+    background: color-mix(in srgb, var(--green) 58%, transparent);
+    transform: none;
+  }
+
+  .site-shell .team-graph .l1,
+  .site-shell .team-graph .l3 {
+    left: var(--diagram-node-size);
+    width: calc(50% - var(--diagram-node-size));
+  }
+
+  .site-shell .team-graph .l2,
+  .site-shell .team-graph .l4 {
+    left: 50%;
+    width: calc(50% - var(--diagram-node-size));
+  }
+
+  .site-shell .team-graph .l1 { top: calc(var(--diagram-node-size) / 2); }
+  .site-shell .team-graph .l2 { top: calc(104px + var(--diagram-node-size) / 2); }
+  .site-shell .team-graph .l3 { top: calc(208px + var(--diagram-node-size) / 2); }
+  .site-shell .team-graph .l4 { top: calc(312px + var(--diagram-node-size) / 2); }
+
+  .site-shell .team-graph .node-six::after {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: calc(50vw - 24px - var(--diagram-node-size));
+    height: 1px;
+    background: color-mix(in srgb, var(--green) 58%, transparent);
+    content: "";
+  }
+}

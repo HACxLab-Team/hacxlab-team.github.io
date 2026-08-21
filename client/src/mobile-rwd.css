@@ -1,0 +1,88 @@
+/**
+ * HACxLab / Research Atelier mobile RWD layer: preserve editorial hierarchy
+ * while ensuring the hero and research-team diagram are fully visible on narrow screens.
+ */
+
+@media (max-width: 760px) {
+  .site-shell {
+    overflow-x: clip;
+  }
+
+  .site-shell .hero-copy {
+    min-width: 0;
+    padding: 58px 24px 42px;
+    overflow: hidden;
+  }
+
+  .site-shell .hero-copy h1 {
+    margin-top: 0;
+    max-width: 100%;
+    font-size: clamp(62px, 18vw, 80px);
+    line-height: 0.86;
+    letter-spacing: -0.065em;
+    white-space: nowrap;
+  }
+
+  .site-shell .hero-deck {
+    max-width: 100%;
+    margin-top: 30px !important;
+    font-size: clamp(24px, 7.2vw, 29px);
+    line-height: 1.12;
+  }
+
+  .site-shell .hero-actions {
+    margin-top: 32px;
+  }
+
+  .site-shell .hero-button {
+    min-height: 44px;
+    padding-inline: 16px !important;
+  }
+
+  .site-shell .hero-visual {
+    min-height: 390px;
+  }
+
+  .site-shell .hero-image {
+    background-position: 62% center;
+  }
+
+  .site-shell .hero-orbit {
+    width: 250px;
+    height: 250px;
+    right: -62px;
+    top: 18%;
+  }
+
+  .site-shell .hero-orbit.orbit-b {
+    width: 142px;
+    height: 142px;
+    right: 58px;
+    top: 12%;
+  }
+
+  .site-shell .team-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .site-shell .team-heading h2 {
+    font-size: clamp(40px, 11.6vw, 54px);
+    line-height: 0.98;
+  }
+
+  .site-shell .team-heading p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+@media (max-width: 380px) {
+  .site-shell .hero-copy h1 {
+    font-size: 62px;
+  }
+
+  .site-shell .hero-deck {
+    font-size: 23px;
+  }
+}

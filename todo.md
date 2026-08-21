@@ -64,3 +64,7 @@
 - [x] Verify the simplified hero on desktop and mobile.
 - [x] Remove the Read the Participation Brief link.
 - [x] Verify the simplified activities section on desktop and mobile.
+- [x] Audit hero and Lab Team Members mobile overflow and spacing issues.
+- [x] Adjust mobile hero typography, image stacking, and call-to-action spacing.
+- [x] Redesign the team diagram for unclipped mobile nodes and clear connections.
+- [x] Verify the optimized mobile presentation at common narrow viewport widths.
