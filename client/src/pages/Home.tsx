@@ -126,7 +126,7 @@ export default function Home() {
           <div className="hero-copy">
             <h1><span>HACx</span>Lab</h1>
             <p className="hero-deck">
-              An innovative AI lab that focuses on language, learning, and the changing shape of communication in an interdisciplinary research environment.
+              A humanities-centered AI lab exploring how language, learning, and human communication evolve through research, dialogue, and hands-on experimentation.
             </p>
             <div className="hero-actions">
               <Button className="hero-button" asChild>
@@ -148,7 +148,7 @@ export default function Home() {
             <span className="side-caption">THE CASE FOR HUMANITIES</span>
           </div>
           <div className="case-body">
-            <h2>Tomorrow’s AI needs people who can read its answers <em>closely.</em></h2>
+            <h2>Tomorrow’s AI needs people who know how to question, interpret, and communicate with it.</h2>
             <div className="case-text">
               <p>
                 Generative AI is changing how people read, write, learn, translate, interpret culture, and communicate across languages. For humanities and foreign-language students, that shift creates a new opportunity.
@@ -233,7 +233,7 @@ export default function Home() {
             <div><span className="globe-mark">◎</span><span>NIU × TEEP</span></div>
           </div>
           <div className="international-content">
-            <h2>Bring many languages, cultures, and readings into the same room.</h2>
+            <h2>Connecting languages, cultures, and perspectives through human-AI communication.</h2>
             <p>HACxLab connects students from Taiwan’s National Ilan University (NIU) and TEEP international students through cross-cultural AI reading, English discussion, digital storytelling, and human–AI communication research.</p>
           </div>
           <div className="international-activities">
@@ -244,7 +244,7 @@ export default function Home() {
         <section className="activities-section">
           <div className="activities-copy">
             <Label number="07">Lab activities</Label>
-            <h2>A steady rhythm of inquiry, making, and sharing.</h2>
+            <h2>From research questions to prototypes, presentations, and shared learning.</h2>
             <p>HACxLab combines research meetings, team activities, industry collaboration, cross-cultural co-learning, and academic showcases.</p>
           </div>
           <ol className="activity-list">
@@ -255,7 +255,7 @@ export default function Home() {
         <section id="join" className="join-section">
           <div className="join-index"><Label number="08">Join HACxLab</Label><span>Open invitation / 2026</span></div>
           <div className="join-content">
-            <h2>Bring your questions <em>to the lab.</em></h2>
+            <h2>Start with a question. Leave with research, experience, and something you helped build.</h2>
             <p>We welcome students interested in AI, language, humanities, literature, communication, intercultural learning, research, data analysis, design, and prototype development.</p>
             <Button className="join-button" asChild><a href="mailto:myhacxlab@gmail.com">9/3/2026 Info Session- Request For More Info <ArrowUpRight size={18} /></a></Button>
           </div>
