@@ -126,7 +126,7 @@ export default function Home() {
           <div className="hero-copy">
             <h1><span>HACx</span>Lab</h1>
             <p className="hero-deck">
-              A humanities-centered AI lab exploring how language, learning, and human communication evolve through research, dialogue, and hands-on experimentation.
+              An innovative AI lab that focuses on language, learning, and the changing shape of communication in an interdisciplinary research environment.
             </p>
             <div className="hero-actions">
               <Button className="hero-button" asChild>
