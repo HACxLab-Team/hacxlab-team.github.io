@@ -265,7 +265,7 @@ export default function Home() {
 
       <footer className="site-footer">
         <div className="footer-brand"><Mark /><span><b>HACxLab</b><small>Human–AI Communication and Experience Lab</small></span></div>
-        <div className="footer-meta"><p>Language, learning, and humanities-centered AI research.</p><a href="mailto:myhacxlab@gmail.com">Contact: myhacxlab@gmail.com</a></div>
+        <div className="footer-meta"><p>Language, learning, and humanities-centered AI research.</p><a href="mailto:myhacxlab@gmail.com">Contact: myhacxlab@gmail.com</a><a href="/privacy-policy">Privacy Policy</a><a href="/terms-of-service">Terms of Service</a></div>
         <a href="#top">Back to top <ArrowUpRight size={14} /></a>
       </footer>
     </div>
